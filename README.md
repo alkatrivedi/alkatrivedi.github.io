@@ -1,2 +1,2 @@
 <h1>Personal Profile Link</h1>
-[Personal Profile](https://alkatrivedi.github.io/)
+<a href="https://alkatrivedi.github.io/">Personal Profile</a>
