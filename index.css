@@ -1,13 +1,16 @@
 h1{
 	text-align:center;
 	font-family:lato;
-	/*color:gray;*/
 }
 
 h4{
 	text-align:center;
 	font-family:lato;
-	/*color:gray;*/
+}
+
+h6{
+	text-align:center;
+	font-family:lato;
 }
 
 hr{
@@ -18,25 +21,11 @@ hr{
 }
 
 #content{
-	/*border:6px solid #bdc3c7;*/
-	/*padding:10px;*/
 	max-width:700px;
 	width:80%;
 	margin:20px auto;
 	border-radius:20px;
 }
-
-/*#content{
-	background:black;
-}*/
-
-/*body{
-	background:rgb(240,240,240);
-}*/
-
-/*p{
-	color:gray;
-}*/
 
 p{
 	font-family:railway;
@@ -49,4 +38,21 @@ body{
 
 #content{
 	background:white;
+}
+
+.icons{
+	display:inline-block;
+	padding-left:45%;
+	padding-right:44%;
+	font-size:20px;
+}
+
+
+i.fa {
+	display:inline-block;
+  	border-radius: 60px;
+  	box-shadow: 0px 0px 2px #888;
+ 	padding: 0.5em 0.6em;
+  	background:#686868;
+  	color:black;
 }
