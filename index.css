@@ -11,6 +11,7 @@ h4{
 h6{
 	text-align:center;
 	font-family:lato;
+	padding-top:6px;
 }
 
 hr{
@@ -25,6 +26,8 @@ hr{
 	width:80%;
 	margin:20px auto;
 	border-radius:20px;
+	background:white;
+	margin-bottom:15px;
 }
 
 p{
@@ -36,23 +39,66 @@ body{
 	background:rgb(180,180,180);
 }
 
-#content{
-	background:white;
-}
-
-.icons{
-	display:inline-block;
+/*.icons{
+	display:inline;
+	position:relative;
 	padding-left:42%;
 	padding-right:43%;
 	font-size:20px;
-}
-
+}*/
 
 i.fa {
-	display:inline-block;
+	display:inline;
   	border-radius: 60px;
   	box-shadow: 0px 0px 2px #888;
  	padding: 0.5em 0.6em;
   	background:#686868;
   	color:black;
+}
+
+#special{
+	padding-top:12px;
+}
+
+.footer{
+	position-bottom:fixed;
+	left:0;
+	bottom:0;
+	height:100px;
+	width:100%;
+	background:#FFFAF0;
+}
+
+ul.icons i{
+	/*padding: 5px;*/
+    /*border-radius: 5px;*/
+    /*background-color: lightblue;*/
+    width: 36px;
+    height: 36px;
+}
+
+ul.icons{
+	list-style-type: none;
+	/*padding-left:42%;
+	padding-right:43%;*/
+    margin: 0;
+    padding: 0;
+}
+
+
+ul.icons li{
+    display: inline-block;
+    margin:2px;
+}
+
+
+ul.icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.center{
+	text-align:center;
 }
