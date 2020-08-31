@@ -64,9 +64,13 @@ i.fa {
 	position-bottom:fixed;
 	left:0;
 	bottom:0;
-	height:100px;
+	height:200px;
 	width:100%;
-	background:#FFFAF0;
+	background-color: #FFFFFF;
+}
+
+.footer-style{
+	padding: 50px;
 }
 
 ul.icons i{
